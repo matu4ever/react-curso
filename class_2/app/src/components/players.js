@@ -16,11 +16,7 @@ export default class Players extends React.Component {
 					{
 						this.props.list.map( (player) => {
 
-							props.key = player.id;
-							props.name = player.name;
-							props.points = player.points;
-							props.cup = player.cup;
-							return <Player {...props} />;
+							return <Player {...player} />;
 						})
 					}
 				</ul>
