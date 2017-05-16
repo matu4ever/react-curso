@@ -8,7 +8,7 @@ export default class Hola extends React.Component {
 
 	render(){
 		return (
-			<h1>Hola Mundo Erwin</h1>
+			<h1>Hola Mundo No Erwin :D</h1>
 		)
 	}
 
