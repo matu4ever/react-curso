@@ -9,7 +9,6 @@ export default class Players extends React.Component {
 	}
 
 	render(){
-		let props = {};
 		return (
 			<div style={style1}>
 				<ul>
